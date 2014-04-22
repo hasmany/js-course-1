@@ -18,6 +18,8 @@
     e.preventDefault();
 
     // Grab all data that the user typed in
+    // This selects an element with class price within the context of class item
+
     newListItem = {
       name: $('.name', $view).val(),
       category: $('.category', $view).val()
