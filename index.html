@@ -17,20 +17,22 @@
   <form class="new-puppy">
     Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
     <input type="text" class="name" name="name" placeholder="Item Name (e.g. Cute Puppies)" autocomplete="off" value="cute dog 1" /></br>
-
+                      <!-- class name -->
     Image URL: <input type="text" class="image" name="image" placeholder="" autocomplete="off" value="http://images4.fanpop.com/image/photos/14700000/So-cute-puppies-14749028-1600-1200.jpg"/>
-
+                      <!-- class image -->
     <input type="submit" class="submit" value="Create!" />
   </form>
-
+                     <!-- id here is the div puppy  -->
   <div id="puppy-showcase">
     <!-- the root div mapped to $root in robin js -->
   </div>
 
   <!-- Templates -->
+<img id="pic"src ="" data-description="funny pic">
 
 
 
+<!-- below is the template -->
   <div id="templates">
     <script type="text/template" class="puppy">
       <div class="puppy" data-id="{{id}}">
